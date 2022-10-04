@@ -1,0 +1,16 @@
+header {
+    .bg-color {
+        background-color: black;
+    }
+    .container-fluid {
+        margin-left: 1200px;
+        a {
+            color: black !important;
+            transition-duration: 0.2s;
+            &:hover {
+                color: red !important;
+            }
+        }
+    }
+}
+
