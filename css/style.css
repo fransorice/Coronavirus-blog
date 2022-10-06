@@ -1,10 +1,25 @@
 header .bg-color {
-  background-color: black; }
+  background-color: #000000; }
+
+header .navbar {
+  padding: 0px;
+  height: 140px; }
 
 header .container-fluid {
-  margin-left: 1200px; }
+  margin-left: 1190px; }
   header .container-fluid a {
-    color: black !important;
-    transition-duration: 0.2s; }
+    color: #FFFCFF !important;
+    transition-duration: 0.2s;
+    height: 140px;
+    padding: 0px 8px 0px 8px;
+    margin: 0px 4px 0px 4px;
+    line-height: 130px;
+    border-radius: 3%; }
     header .container-fluid a:hover {
-      color: red !important; }
+      color: #686868 !important;
+      background-color: #FFEBE7; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }

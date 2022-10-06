@@ -1,14 +1,26 @@
 header {
     .bg-color {
-        background-color: black;
+        background-color: #000000;
     }
+
+    .navbar {
+        padding: 0px;
+        height: 140px;
+    }
+
     .container-fluid {
-        margin-left: 1200px;
+        margin-left: 1190px;
         a {
-            color: black !important;
+            color: #FFFCFF !important;
             transition-duration: 0.2s;
+            height: 140px;
+            padding: 0px 8px 0px 8px;
+            margin: 0px 4px 0px 4px;
+            line-height: 130px;
+            border-radius: 3%;
             &:hover {
-                color: red !important;
+                color: rgb(104, 104, 104) !important;
+                background-color: #FFEBE7;
             }
         }
     }
