@@ -1,25 +1,43 @@
 header {
     .bg-color {
-        background-color: #000000;
+        background-color: #275DAD;
     }
 
     .navbar {
         padding: 0px;
         height: 140px;
+        div {
+            a {
+                text-decoration: none;
+                img {
+                    padding-left: 30px;
+                }
+
+                h5 {
+                    padding-left: 10px;
+                    margin: 5px 0px 0px 0px;
+                    color: #FFFCFF;
+                    transition-duration: 0.3s;
+                    &:hover {
+                        color: rgb(104, 104, 104);
+                    }
+                }
+            }
+        }
     }
 
     .container-fluid {
         margin-left: 1190px;
         a {
-            color: #FFFCFF !important;
+            color: #FFFCFF;
             transition-duration: 0.2s;
             height: 140px;
-            padding: 0px 8px 0px 8px;
+            padding: 0px 12px 0px 12px;
             margin: 0px 4px 0px 4px;
             line-height: 130px;
             border-radius: 3%;
             &:hover {
-                color: rgb(104, 104, 104) !important;
+                color: rgb(104, 104, 104);
                 background-color: #FFEBE7;
             }
         }
