@@ -6,40 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <title>Coronavirus</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-color d-flex fixed-top">
-            <div>
-                <a href="#">
-                    <img src="../media/coronavirus blog logo.png" alt="logo de coronavirus blog" width="170px">
-                </a>
-            </div>
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html">Inicio</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./quees.html">COVID-19</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./sintomas.html">Síntomas</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./cuidados.html">Cuidados</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./dondesurgio.html">¿Dónde surgió?</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-color d-flex fixed-top">
+        <div class="icono d-flex">
+            <a href="#">
+              <img src="../media/virus.png" alt="" width="70px">
+            </a>
+            <a href="#">
+              <h5>Coronavirus</h5> 
+            </a>
+        </div>
+        <div class="container-fluid d-flex">
+          <a class="nav-link fw-bold fs-6" href="../index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link fw-bold fs-6" aria-current="page" href="./quees.html">COVID-19</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold fs-6" href="#">Síntomas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold fs-6" href="./cuidados.html">Cuidados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold fs-6" href="./dondesurgio.html">¿Dónde surgió?</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+  </header>
+  <footer>
+    <section class="footer d-flex">
+      <div class="footer__div1">
+        <h3 class="fw-bolder">Secciones</h3>
+        <a href="../index.html"><h6 class="fw-bold">Inicio</h6></a>
+        <a href="./quees.html"><h6 class="fw-bold">COVID-19</h6></a>
+        <a href="#"><h6 class="fw-bold">Síntomas</h6></a>
+        <a href="./cuidados.html"><h6 class="fw-bold">Cuidados</h6></a>
+        <a href="./dondesurgio.html"><h6 class="fw-bold">¿Dónde surgió?</h6></a>
+      </div>
+      <div class="footer__div2">
+        <h3 class="fw-bolder">Coronavirus blog</h3>
+        <p class="footer__div2-p fw-bold">Por cualquier emergencia o signo de contagio, llamá al 120, es gratuito desde cualquier lugar del país (Argentina) las 24hs.</p>
+        <p class="footer__div2-p2 d-flex fw-bold">Copyright © 2022</p>
+      </div>
+    </section>    
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
