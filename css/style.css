@@ -9,10 +9,10 @@ header .navbar {
     header .navbar div a img {
       padding-left: 30px; }
     header .navbar div a h5 {
-      padding-left: 10px;
       margin: 5px 0px 0px 0px;
       color: #FFFCFF;
-      transition-duration: 0.3s; }
+      transition-duration: 0.3s;
+      font-family: 'Playfair Display', serif; }
       header .navbar div a h5:hover {
         color: #686868; }
   header .navbar div h6 {
@@ -40,7 +40,8 @@ header .container-fluid {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
 
 @keyframes banner {
   0%, 20% {
@@ -82,12 +83,12 @@ header .container-fluid {
   align-items: center; }
 
 .quees__div-h1 {
-  margin-top: 30px;
+  margin-top: 60px;
   margin-bottom: 50px; }
 
 .quees__div-p {
   max-width: 75ch;
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 50px; }
 
 .acordion {
@@ -96,18 +97,102 @@ header .container-fluid {
 .accordion {
   width: 1200px;
   border-top: #b4b4b4 solid 1px;
-  border-bottom: #b4b4b4 solid 1px; }
+  border-bottom: #b4b4b4 solid 1px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; }
 
 .accordion-header {
   transition-duration: 0.3s; }
   .accordion-header:hover {
     padding-left: 30px; }
 
+.accordion-button {
+  font-size: 20px; }
+
+.accordion-body {
+  color: #333333; }
+
+.imagenesRealesText {
+  margin-top: 110px;
+  margin-bottom: 50px; }
+
+.carruselCovid {
+  justify-content: center; }
+  .carruselCovid .carousel {
+    width: 1200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; }
+    .carruselCovid .carousel .primerFotoCovid {
+      height: 770px; }
+
+/* SINTOMAS PAGE */
+.section__sintomas {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px; }
+  .section__sintomas .section__sintomas-p1 {
+    margin-bottom: 40px; }
+  .section__sintomas .section__sintomas-p2 {
+    width: 800px; }
+
+.sintomas {
+  background-color: #a7dfbe;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 700px;
+  flex-direction: column;
+  margin: 60px auto 160px auto; }
+  .sintomas h6 {
+    margin: 20px 0px 20px 50px; }
+  .sintomas .sintomas__divlist {
+    flex-direction: row;
+    justify-content: space-around; }
+
+.divisorSecciones {
+  height: 2px;
+  width: 800px;
+  background-color: #4b6d59; }
+
+.section__enfermo {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px; }
+  .section__enfermo p {
+    margin-bottom: 40px; }
+  .section__enfermo .section__enfermo-ul {
+    margin-bottom: 50px; }
+
+.div__diferencias {
+  flex-direction: column;
+  align-items: center; }
+  .div__diferencias .div__diferencias-titulo {
+    margin-right: 210px; }
+    .div__diferencias .div__diferencias-titulo img {
+      margin-right: 200px; }
+  .div__diferencias p {
+    margin-top: 50px;
+    width: 1000px; }
+
+.section__cuidarse {
+  flex-direction: column;
+  margin: 200px 0px 0px 100px; }
+
+.section__cuidarseItems {
+  flex-direction: column;
+  width: 1150px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto; }
+  .section__cuidarseItems div {
+    padding-bottom: 30px; }
+    .section__cuidarseItems div img {
+      transition-duration: 0.5s;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; }
+      .section__cuidarseItems div img:hover {
+        width: 900px;
+        height: 450px; }
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: 'Playfair Display', serif; }
+  box-sizing: border-box; }
 
 article {
   margin-top: 140px;
@@ -118,7 +203,11 @@ footer {
   padding-top: 40px;
   background-color: #275DAD;
   color: white;
-  border-top: white solid 2px; }
+  border-top: white solid 2px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; }
+
+body {
+  background-image: linear-gradient(426deg, rgba(234, 234, 234, 0.04) 0%, rgba(234, 234, 234, 0.04) 33.3%, rgba(69, 69, 69, 0.04) 33.3%, rgba(69, 69, 69, 0.04) 66.6%, rgba(189, 189, 189, 0.04) 66.6%, rgba(189, 189, 189, 0.04) 99.9%), linear-gradient(261deg, rgba(126, 126, 126, 0.05) 0%, rgba(126, 126, 126, 0.05) 33.3%, rgba(237, 237, 237, 0.05) 33.3%, rgba(237, 237, 237, 0.05) 66.6%, rgba(74, 74, 74, 0.05) 66.6%, rgba(74, 74, 74, 0.05) 99.9%), linear-gradient(194deg, rgba(3, 3, 3, 0.08) 0%, rgba(3, 3, 3, 0.08) 33.3%, rgba(156, 156, 156, 0.08) 33.3%, rgba(156, 156, 156, 0.08) 66.6%, rgba(199, 199, 199, 0.08) 66.6%, rgba(199, 199, 199, 0.08) 99.9%), linear-gradient(503deg, rgba(82, 82, 82, 0.06) 0%, rgba(82, 82, 82, 0.06) 33.3%, rgba(179, 179, 179, 0.06) 33.3%, rgba(179, 179, 179, 0.06) 66.6%, rgba(212, 212, 212, 0.06) 66.6%, rgba(212, 212, 212, 0.06) 99.9%), linear-gradient(212deg, rgba(70, 70, 70, 0.02) 0%, rgba(70, 70, 70, 0.02) 33.3%, rgba(166, 166, 166, 0.02) 33.3%, rgba(166, 166, 166, 0.02) 66.6%, rgba(53, 53, 53, 0.02) 66.6%, rgba(53, 53, 53, 0.02) 99.9%), linear-gradient(218deg, rgba(129, 129, 129, 0.09) 0%, rgba(129, 129, 129, 0.09) 33.3%, rgba(38, 38, 38, 0.09) 33.3%, rgba(38, 38, 38, 0.09) 66.6%, rgba(153, 153, 153, 0.09) 66.6%, rgba(153, 153, 153, 0.09) 99.9%), linear-gradient(243deg, rgba(51, 51, 51, 0.02) 0%, rgba(51, 51, 51, 0.02) 33.3%, rgba(12, 12, 12, 0.02) 33.3%, rgba(12, 12, 12, 0.02) 66.6%, rgba(158, 158, 158, 0.02) 66.6%, rgba(158, 158, 158, 0.02) 99.9%), linear-gradient(407deg, rgba(63, 63, 63, 0.03) 0%, rgba(63, 63, 63, 0.03) 33.3%, rgba(9, 9, 9, 0.03) 33.3%, rgba(9, 9, 9, 0.03) 66.6%, rgba(85, 85, 85, 0.03) 66.6%, rgba(85, 85, 85, 0.03) 99.9%), linear-gradient(283deg, rgba(247, 247, 247, 0.07) 0%, rgba(247, 247, 247, 0.07) 33.3%, rgba(93, 93, 93, 0.07) 33.3%, rgba(93, 93, 93, 0.07) 66.6%, rgba(208, 208, 208, 0.07) 66.6%, rgba(208, 208, 208, 0.07) 99%), linear-gradient(180deg, #0b91d7, #6efc29); }
 
 footer .footer {
   justify-content: space-evenly; }
