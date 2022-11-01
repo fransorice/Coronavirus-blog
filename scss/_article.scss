@@ -198,4 +198,76 @@
     }
 }
 
+.section__dondeHead {
+    flex-direction: column;
+    margin: 200px 0px 0px 100px;
+}
+
+.section__dondeSurgio {
+    width: 1150px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section__historia {
+    width: 1150px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    h2 {
+        margin-bottom: 30px;
+    }
+    .section__historia-p2 {
+        margin-bottom: 50px;
+    }
+    h6 {
+        margin-bottom: 20px;
+    }
+}
+
+.section__estadisticas {
+    width: 1150px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.estadisticas__casos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.estadisticas__muertes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.section__mapa {
+    width: 1150px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    iframe {
+        width: 900px;
+        height: 700px;
+    }
+}
+
+#divisor2 {
+    height: 3px;
+    width: 1300px;
+    background-color: rgb(49, 61, 54);
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 70%;
+}
+
 
