@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 40px;
 }
 
 @keyframes banner {
@@ -85,7 +86,7 @@
     transition-duration: 0.3s;
         &:hover {
             padding-left: 30px;
-        }  
+        } 
 }
 
 .accordion-button {
@@ -231,6 +232,12 @@
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
+    h6 {
+        margin-bottom: 30px;
+    }
+    img {
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
 }
 
 .estadisticas__casos {
@@ -255,8 +262,15 @@
     margin-left: auto;
     margin-right: auto;
     iframe {
-        width: 900px;
-        height: 700px;
+        width: 1100px;
+        height: 900px;
+        margin-left: 30px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    h2 {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
     }
 }
 
